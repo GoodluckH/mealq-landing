@@ -7,22 +7,38 @@ import {
   VStack,
   Code,
   Grid,
-  theme,
+  Spacer,
+  Container,
+  HStack,
 } from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
+import theme from './theme';
+import NavBar from './NavBar';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
+      <NavBar />
       <Box textAlign="center" fontSize="xl">
         <Grid minH="100vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
           <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
-            <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-            </Text>
+            <Spacer />
+            <Text fontSize="5xl">welcome to mealq</Text>
+            <Text fontSize="5xl">welcome to mealq</Text>
+            <Text fontSize="5xl">welcome to mealq</Text>
+            <Text fontSize="5xl">welcome to mealq</Text>
+            <Text fontSize="5xl">welcome to mealq</Text>
+            <Text fontSize="5xl">welcome to mealq</Text>
+            <Text fontSize="5xl">welcome to mealq</Text>
+            <Text fontSize="5xl">welcome to mealq</Text>
+            <Text fontSize="5xl">welcome to mealq</Text>
+            <Text fontSize="5xl">welcome to mealq</Text>
+            <Text fontSize="5xl">welcome to mealq</Text>
+            <Text fontSize="5xl">welcome to mealq</Text>
+            <Text fontSize="5xl">welcome to mealq</Text>
+            <Text fontSize="5xl">welcome to mealq</Text>
+            <Text fontSize="5xl">welcome to mealq</Text>
+            <Text fontSize="5xl">welcome to mealq</Text>
+            <Text fontSize="5xl">welcome to mealq</Text>
             <Link
               color="teal.500"
               href="https://chakra-ui.com"
@@ -32,6 +48,8 @@ function App() {
             >
               Learn Chakra
             </Link>
+            <Spacer />
+            <Spacer />
           </VStack>
         </Grid>
       </Box>
